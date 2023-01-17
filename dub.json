@@ -26,5 +26,10 @@
 				"unit-threaded": "*"
 			}
 		}
-	]
+	],
+	"buildTypes": {
+		"docs": {
+			"dflags-dmd": ["-Dd$ROOT_PACKAGE_DIR/docs/src/.vuepress/public/ddoc"]
+		}
+	}
 }

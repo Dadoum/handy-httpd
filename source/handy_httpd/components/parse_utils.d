@@ -63,6 +63,7 @@ public struct Msg {
 /** 
  * Parses an HTTP request from a string.
  * Params:
+ *   requestParser = The parser to use.
  *   s = The raw HTTP request string.
  * Returns: An HttpRequest object which can be passed to a handler.
  */
